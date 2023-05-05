@@ -1,0 +1,12 @@
+a)'git fetch' récupère les dernières modifications du référentiel distant  mais ne fusionne pas avec la copie locale tandisque 'git pull'oui. Elle récupère et fusionne.  
+
+
+
+b)Pour annuler les modifications, on fait 'git reset' 
+
+
+c)Pour supprimer une branche distante, il faut faire 'd'abord faire 'git branch -r' pour voir la liste des branches puis faire un 'git --delete' suivi du nom du remote qui est par défaut "origin" et du nom de la branche  
+
+
+
+d)Pour voir l'historique des modifications pour un fichier spécifique dans Git, il faut faire 'git log --follow' suivi du nom du fichier.
